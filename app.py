@@ -18,7 +18,7 @@ def generate_text(prompt):
 
 st.title("py.Coder")
 
-text = st.text_input("What do you want the code ?")
+text = st.text_input("What do you want to code ?")
 
 if text:
     st.write(generate_text(text))
