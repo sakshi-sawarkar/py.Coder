@@ -16,9 +16,9 @@ def generate_text(prompt):
     response = chat_completion.choices[0].message.content
     return response
 
-st.title("Sakshi Bohot Roti Hai!!")
+st.title("py.Coder")
 
-text = st.text_input("What do you want the code to do?")
+text = st.text_input("What do you want the code ?")
 
 if text:
     st.write(generate_text(text))
