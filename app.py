@@ -2,7 +2,7 @@ import streamlit as st
 import os
 from openai import OpenAI
 client = OpenAI(
-    api_key= st.secrets(KEY),
+    api_key= st.secrets("KEY"),
 )
 
 def generate_text(prompt):
